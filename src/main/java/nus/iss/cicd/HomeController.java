@@ -9,6 +9,8 @@ public class HomeController {
 
     @GetMapping
     public String home() {
+
+        System.out.println("changed in master");
         return "index";
     }
 
