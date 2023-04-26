@@ -9,12 +9,9 @@ public class HomeController {
 
     @GetMapping
     public String home() {
-<<<<<<< HEAD
-
         System.out.println("changed in master");
-=======
+
         System.out.println("This is controller class");
->>>>>>> develop
         return "index";
     }
 
