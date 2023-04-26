@@ -9,10 +9,11 @@ public class HomeController {
 
     @GetMapping
     public String home() {
+        System.out.println("This is controller class");
         return "index";
     }
 
-    
+
 
 }
 //
