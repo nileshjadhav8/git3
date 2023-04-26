@@ -9,7 +9,7 @@ public class HomeController {
 
     @GetMapping
     public String home() {
-        System.out.println("main branch changed");
+        System.out.println("develop branch changed");
 
         System.out.println("This is controller class");
         return "index";
