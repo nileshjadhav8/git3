@@ -34,4 +34,6 @@ build/
 
 error.log
 *.log
-dir/
+
+**/dir
+**/static
